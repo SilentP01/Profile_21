@@ -186,7 +186,7 @@ function AboutSection() {
       <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
         <SectionHeading
           eyebrow="About"
-          title="A focused portfolio for privacy, simplicity, and legal security thinking."
+          title="Building functional software with privacy at the core."
           body={profile.about[0]}
         />
         <div className="space-y-4 text-base leading-7 text-white/68">
@@ -228,8 +228,8 @@ function ProjectsSection() {
       <div className="section-shell">
         <SectionHeading
           eyebrow="Projects"
-          title="Work shaped around privacy, peer-to-peer systems, and mobile security."
-          body="Barta is the main deployed project here, with future AI and Android experiments kept as clear directions for what comes next."
+          title="Independent projects focused on privacy, peer-to-peer systems, and mobile utility."
+          body="My portfolio highlights tools I've built to solve real problems, starting with Barta—a deployed peer-to-peer communication app."
         />
 
         <div className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -324,8 +324,8 @@ function SkillsSection() {
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <SectionHeading
           eyebrow="Skills"
-          title="A practical stack for peer-to-peer privacy tools and modern web work."
-          body="Your current strengths lean into WebRTC, backend performance, Android privacy controls, and clean frontend implementation."
+          title="A practical stack for building modern, privacy-focused applications."
+          body="My experience spans from building real-time WebRTC connections and managing backend performance to creating clean frontend interfaces."
         />
         <div className="grid gap-4 sm:grid-cols-2">
           {skillGroups.map((group) => (
@@ -355,8 +355,8 @@ function TimelineSection() {
       <div className="section-shell">
         <SectionHeading
           eyebrow="Direction"
-          title="A website that can grow with you."
-          body="This is designed to grow into a personal website with writing, AI demos, project dashboards, a resume generator, and a chat assistant later."
+          title="A personal space to document and share my ongoing projects."
+          body="This portfolio reflects my self-driven learning journey, showcasing projects that combine my academic background with practical, real-world development."
         />
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {timeline.map((item) => (
@@ -381,11 +381,10 @@ function ContactSection() {
             Contact
           </p>
           <h2 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight sm:text-4xl">
-            Let&apos;s talk about privacy-first software.
+            Open to conversations about privacy-first software.
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-7 text-ink-700">
-            Open to project conversations, collaboration, feedback, and opportunities
-            connected to privacy, peer-to-peer systems, Android, or practical web tools.
+            I am always open to discussing privacy-focused tools, peer-to-peer systems, or exchanging ideas about ethical software development. Feel free to reach out or connect via GitHub.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
@@ -426,7 +425,7 @@ export default function Home() {
           <p>{profile.name}</p>
           <div className="flex items-center gap-2">
             <Smartphone className="h-4 w-4" />
-            <span>{profile.location} · Built with Next.js, Tailwind CSS, and Framer Motion.</span>
+            <span>{profile.location} - Built with Next.js, Tailwind CSS, and Framer Motion.</span>
           </div>
         </div>
       </footer>

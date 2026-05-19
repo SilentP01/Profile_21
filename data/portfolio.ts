@@ -1,19 +1,19 @@
 export const profile = {
   name: "Debajit Roy",
   preferredName: "Debajit",
-  title: "B.Sc. Computer Science Graduate",
-  role: "Privacy-focused builder",
+  title: "Independent Developer",
+  role: "Software Developer & Privacy Advocate",
   intro:
-    "In an era of everyday vulnerabilities, I want to protect privacy through legal, simple, and thoughtful ideas.",
+    "I build practical, privacy-first software to solve real-world problems. As a self-driven developer, I focus on creating secure tools that prioritize user control and ethical engineering.",
   location: "Haldibari, West Bengal",
-  education: "B.Sc. Computer Science, 2022-2025 batch",
+  education: "B.Sc. Computer Science, North Bengal University (2022-2025)",
   email: "debajitroy0005@gmail.com",
   github: "https://github.com/SilentP01",
   avatar: "/avatar-debajit.svg",
   about: [
-    "I am a B.Sc. Computer Science graduate from the 2022-2025 batch. My degree gave me a basic foundation in the programming world, and I am continuing to learn independently through open-source resources.",
-    "I love building tools for my own personal use, especially when privacy and simplicity matter. If those tools can help other people too, I want to make them available in a clear and usable way.",
-    "My long-term vision is to reduce vulnerabilities that lead to daily exploitation, while staying on the legal and ethical side of security work.",
+    "I am a recent B.Sc. Computer Science graduate from North Bengal University. While my degree provided a strong academic foundation, my true passion lies in learning through building. I focus on developing functional software that solves everyday problems, with a strong emphasis on data privacy.",
+    "My development journey is largely self-driven. I build tools for my personal use first—whether that's a peer-to-peer chat app to avoid server tracking or an Android utility for better mobile control. If a tool proves useful, I refine it into an accessible application for others.",
+    "I use this portfolio as a living space to document my learning journey, showcase the practical tools I build, and share my thoughts on privacy-first software with the wider community.",
   ],
 };
 
@@ -25,19 +25,19 @@ export const navItems = [
 ];
 
 export const principles = [
-  "Privacy by design",
-  "Legal and ethical security thinking",
-  "Simplicity over noise",
-  "Offline-first resilience",
+  "Privacy by Default",
+  "Learning through Building",
+  "Ethical Software Design",
+  "Resilient Systems",
 ];
 
 export const projects = [
   {
     title: "Barta",
     status: "Deployed",
-    eyebrow: "Peer-to-peer conversation tool",
+    eyebrow: "Peer-to-Peer Communication",
     description:
-      "A privacy-focused peer-to-peer conversation tool where chats, media, and files route directly between devices instead of being stored in a database.",
+      "A privacy-focused messaging application I built to ensure that chat, media, and files move directly between users, bypassing centralized server storage.",
     image: "/projects/barta.png",
     stack: [
       "WebRTC",
@@ -48,70 +48,70 @@ export const projects = [
       "Railway",
     ],
     features: [
-      "Direct peer media, chat, and file routing with zero message persistence",
-      "End-to-end encrypted WebRTC DataChannels, voice, and video",
-      "Native Android shell with hardware-level screenshot protection",
-      "Anonymous handle-based connection flow without phone numbers or real names",
-      "Backend-driven version checker for OTA update dialogs",
+      "Real-time peer-to-peer chat, voice, and video routing via WebRTC",
+      "No message history or personal data persistence on the server",
+      "Encrypted transport utilizing DTLS/SRTP protocols",
+      "Native Android application featuring FLAG_SECURE screen-capture prevention",
+      "Anonymous, handle-based authentication to eliminate the need for phone numbers",
     ],
     challenges: [
-      "Handled WebRTC SDP and ICE candidate race conditions with asynchronous queueing",
-      "Reduced ISP DNS and firewall delays with prefetching, preconnects, and STUN fallbacks",
-      "Moved heavy scrypt hashing away from blocking server execution",
+      "Learned to implement and stabilize WebRTC signaling for out-of-order SDP and ICE candidates",
+      "Optimized connection latency through prefetching and STUN fallback mechanisms",
+      "Managed asynchronous scrypt password hashing to keep the backend performant",
     ],
-    role: "Lead Architect & Product Owner",
+    role: "Creator & Developer",
     roleDetails:
-      "Led the security layout, serverless E2EE matchmaking idea, Android privacy controls, WebRTC signaling fixes, backend performance work, and automated APK release workflow.",
+      "Built the entire application independently to learn full-stack development, from the privacy model and WebRTC signaling to the Android client and deployment.",
     links: {
       demo: "https://barta.up.railway.app",
       github: "https://github.com/SilentP01/Barta.git",
     },
   },
   {
-    title: "Future AI Assistant",
-    status: "Planned",
-    eyebrow: "Private AI experiment",
+    title: "Personal AI Workspace",
+    status: "In Development",
+    eyebrow: "Local AI Integration",
     description:
-      "A future assistant idea for research, planning, and personal workflows, designed around user control and privacy-first thinking.",
+      "An ongoing experiment to build an intelligent, privacy-first personal assistant that handles daily workflows without sending private data to external APIs.",
     image: "/projects/assistant.png",
-    stack: ["Next.js", "TypeScript", "LLMs", "Local knowledge", "Privacy UX"],
+    stack: ["Next.js", "TypeScript", "Local LLMs", "Tailwind CSS"],
     features: [
-      "Private knowledge base direction",
-      "Readable planning and research flows",
-      "Designed for future demos and project dashboards",
+      "Context-aware assistance using completely local knowledge bases",
+      "Transparent, user-controlled data management without telemetry",
+      "Designed as an extensible foundation for future local-first tools",
     ],
     challenges: [
-      "Balancing helpful automation with transparent behavior",
-      "Keeping user data control central to the product idea",
+      "Balancing the performance of local LLMs with practical response times",
+      "Designing a user interface that makes complex AI interactions feel intuitive",
     ],
-    role: "Concept Owner",
+    role: "Developer",
     roleDetails:
-      "Exploring how AI can support daily thinking without turning the user into the product.",
+      "Exploring how AI can support personal thinking and organization while strictly maintaining data privacy.",
     links: {
       demo: "#contact",
       github: profile.github,
     },
   },
   {
-    title: "Android Experiments",
-    status: "Learning",
-    eyebrow: "Mobile prototypes",
+    title: "Mobile Utility Suite",
+    status: "Prototyping",
+    eyebrow: "Android Experiments",
     description:
-      "Small Android and hybrid app experiments for learning mobile interfaces, native privacy controls, and practical utility flows.",
+      "A series of lightweight Android applications I am building to learn native mobile capabilities, privacy controls, and practical utility workflows.",
     image: "/projects/android-lab.png",
-    stack: ["Kotlin", "Android SDK", "WebView", "Gradle", "Firebase ideas"],
+    stack: ["Kotlin", "Android SDK", "WebView", "Gradle"],
     features: [
-      "Native Android privacy controls",
-      "Hybrid WebView bridge experiments",
-      "Fast prototypes for personal-use tools",
+      "Implementation of native Android privacy controls",
+      "Exploration of hybrid integration using custom WebView bridges",
+      "Focus on fast prototypes that solve immediate personal needs",
     ],
     challenges: [
-      "Turning rough personal ideas into testable screens",
-      "Learning mobile patterns while keeping the interface simple",
+      "Translating web development experience into the Android ecosystem",
+      "Learning to build clean, accessible mobile UI patterns",
     ],
-    role: "Builder",
+    role: "Developer",
     roleDetails:
-      "Using experiments to learn mobile development by building tools that solve small real problems.",
+      "Using hands-on projects to deepen my understanding of Kotlin and native Android performance optimization.",
     links: {
       demo: "#contact",
       github: profile.github,
@@ -121,54 +121,45 @@ export const projects = [
 
 export const skillGroups = [
   {
-    title: "Languages",
-    items: ["JavaScript ES6+", "Kotlin", "HTML5", "CSS3", "SQL"],
+    title: "Programming Languages",
+    items: ["JavaScript (ES6+)", "TypeScript", "Kotlin", "HTML5", "CSS3", "SQL"],
   },
   {
-    title: "Protocols & APIs",
-    items: ["WebRTC", "WebSockets", "STUN/TURN", "DTLS/SRTP", "HTTPS", "REST APIs"],
+    title: "Web Technologies",
+    items: ["React", "Next.js", "WebRTC", "WebSockets", "REST APIs"],
   },
   {
     title: "Backend & Systems",
-    items: ["Node.js", "PostgreSQL", "Connection pooling", "scrypt hashing", "Cryptography"],
+    items: ["Node.js", "PostgreSQL", "Authentication", "Cryptography Basics"],
   },
   {
-    title: "Mobile & Hybrid",
-    items: ["Android SDK", "WebView Bridge", "FLAG_SECURE", "Gradle", "Kotlin Android"],
+    title: "Mobile Development",
+    items: ["Android SDK", "Kotlin for Android", "WebView Integration"],
   },
   {
-    title: "Tools & DevOps",
-    items: ["GitHub Actions", "Git", "Railway", "Linux", "Windows Terminal"],
+    title: "Tools & Deployment",
+    items: ["Git & GitHub", "GitHub Actions", "Linux Environment", "Railway"],
   },
   {
-    title: "Portfolio Website Stack",
-    items: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Responsive UI",
-      "SEO basics",
-      "Vercel deployment",
-    ],
+    title: "Design & UI",
+    items: ["Tailwind CSS", "Framer Motion", "Responsive Design"],
   },
 ];
 
 export const timeline = [
   {
-    year: "2022-2025",
-    title: "Computer Science foundation",
-    body: "Completed B.Sc. Computer Science and built a base understanding of programming, systems, and software thinking.",
+    year: "2022 - 2025",
+    title: "B.Sc. Computer Science",
+    body: "Graduated from North Bengal University, building a strong academic foundation in algorithms, systems, and programming.",
   },
   {
-    year: "Now",
-    title: "Learning through open source",
-    body: "Growing independently through open-source learning and by building privacy-focused tools for real personal use.",
+    year: "Present",
+    title: "Building & Learning",
+    body: "Actively developing independent projects like Barta to solve personal privacy needs and gain practical software engineering experience.",
   },
   {
-    year: "Long term",
-    title: "Reduce daily exploitation",
-    body: "Build simple, legal, privacy-first tools that reduce vulnerabilities in everyday digital life.",
+    year: "Future Outlook",
+    title: "Expanding Personal Tools",
+    body: "Continuing to experiment with local-first technologies, building out my personal AI workspace, and sharing my projects with the open-source community.",
   },
 ];
