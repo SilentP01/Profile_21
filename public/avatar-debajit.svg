@@ -1,0 +1,26 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized avatar of Debajit Roy</title>
+  <desc id="desc">A calm monochrome illustrated avatar of a young Indian man wearing lenses.</desc>
+  <rect width="640" height="640" rx="48" fill="#070908"/>
+  <path d="M112 520C139 429 214 372 320 372C426 372 501 429 528 520C482 566 412 592 320 592C228 592 158 566 112 520Z" fill="#EFF8F3" fill-opacity="0.08"/>
+  <path d="M203 535C219 455 257 414 320 414C383 414 421 455 437 535" stroke="#EFF8F3" stroke-opacity="0.32" stroke-width="30" stroke-linecap="round"/>
+  <path d="M220 355C233 429 272 469 320 469C368 469 407 429 420 355" fill="#A66F48"/>
+  <path d="M245 385C259 427 286 449 320 449C354 449 381 427 395 385V448C375 478 350 493 320 493C290 493 265 478 245 448V385Z" fill="#75452E"/>
+  <path d="M196 249C197 172 244 116 320 116C396 116 443 172 444 249L438 321C432 397 385 443 320 443C255 443 208 397 202 321L196 249Z" fill="#B9794E"/>
+  <path d="M205 263C198 252 187 252 181 264C172 281 182 319 204 321L205 263Z" fill="#9C623E"/>
+  <path d="M435 263C442 252 453 252 459 264C468 281 458 319 436 321L435 263Z" fill="#9C623E"/>
+  <path d="M202 252C210 164 259 101 327 101C390 101 435 152 443 248C408 224 376 206 335 205C288 204 250 225 202 252Z" fill="#111411"/>
+  <path d="M238 162C264 112 326 82 392 124C428 147 443 186 443 249C395 219 353 205 310 210C266 215 230 234 202 252C203 215 214 185 238 162Z" fill="#171B17"/>
+  <path d="M249 293C267 282 288 282 305 293" stroke="#1D1210" stroke-width="9" stroke-linecap="round"/>
+  <path d="M335 293C353 282 374 282 391 293" stroke="#1D1210" stroke-width="9" stroke-linecap="round"/>
+  <rect x="229" y="272" width="86" height="52" rx="23" stroke="#EFF8F3" stroke-opacity="0.72" stroke-width="8"/>
+  <rect x="325" y="272" width="86" height="52" rx="23" stroke="#EFF8F3" stroke-opacity="0.72" stroke-width="8"/>
+  <path d="M315 298H325" stroke="#EFF8F3" stroke-opacity="0.72" stroke-width="8" stroke-linecap="round"/>
+  <path d="M208 291L229 292" stroke="#EFF8F3" stroke-opacity="0.72" stroke-width="8" stroke-linecap="round"/>
+  <path d="M411 292L432 291" stroke="#EFF8F3" stroke-opacity="0.72" stroke-width="8" stroke-linecap="round"/>
+  <path d="M319 305C314 331 310 344 304 361C315 367 326 367 337 361" stroke="#6E3F2B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M282 384C304 398 334 399 358 384" stroke="#522C1F" stroke-width="9" stroke-linecap="round"/>
+  <path d="M246 226C270 209 301 201 333 203" stroke="#EFF8F3" stroke-opacity="0.08" stroke-width="16" stroke-linecap="round"/>
+  <path d="M191 540C222 558 264 568 320 568C376 568 418 558 449 540" stroke="#72E6C8" stroke-opacity="0.42" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 518C161 572 229 604 320 604C411 604 479 572 520 518" stroke="#EFF8F3" stroke-opacity="0.16" stroke-width="2"/>
+</svg>
