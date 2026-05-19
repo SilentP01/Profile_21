@@ -23,6 +23,7 @@ import {
   skillGroups,
   timeline,
 } from "@/data/portfolio";
+import { CopyEmailButton } from "@/components/copy-email-button";
 
 type IconType = ComponentType<{ className?: string }>;
 
@@ -104,13 +105,7 @@ function SiteHeader() {
             </a>
           ))}
         </div>
-        <a
-          href={`mailto:${profile.email}`}
-          className="focus-ring inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.05] text-white/75 transition hover:border-mint/60 hover:text-mint"
-          aria-label="Email"
-        >
-          <Mail className="h-4 w-4" />
-        </a>
+        <CopyEmailButton variant="icon" />
       </nav>
     </header>
   );
@@ -385,17 +380,11 @@ function ContactSection() {
             Open to conversations about privacy-first software.
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-7 text-ink-700">
-            I am always open to discussing privacy-focused tools, peer-to-peer systems, or exchanging ideas about ethical software development. Feel free to reach out or connect via GitHub.
+            I am always open to discussing privacy-focused tools, peer-to-peer systems, or exchanging ideas about ethical software development. Feel free to reach out directly at <a href={`mailto:${profile.email}`} className="font-semibold text-ink-900 hover:underline">{profile.email}</a> or connect via GitHub.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-          <a
-            href={`mailto:${profile.email}`}
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-ink-950 px-5 text-sm font-semibold text-frost transition hover:bg-ink-800"
-          >
-            <Mail className="h-4 w-4" />
-            Email
-          </a>
+          <CopyEmailButton />
           <a
             href={profile.github}
             target="_blank"
