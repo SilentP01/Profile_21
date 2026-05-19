@@ -23,7 +23,7 @@ export default function ResumePage() {
             </p>
             <div className="mt-5 flex flex-wrap gap-3 text-sm text-white/60 print:text-neutral-600">
               <span>{profile.location}</span>
-              <span>{profile.education}</span>
+              <span>{profile.education}, {profile.institution}</span>
               <span>{profile.email}</span>
               <span>{profile.github.replace("https://", "")}</span>
             </div>

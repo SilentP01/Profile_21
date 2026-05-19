@@ -6,7 +6,9 @@ export const profile = {
   intro:
     "I build practical, privacy-first software to solve real-world problems. As a self-driven developer, I focus on creating secure tools that prioritize user control and ethical engineering.",
   location: "Haldibari, West Bengal",
-  education: "B.Sc. Computer Science, North Bengal University (2022-2025)",
+  education: "B.Sc. Computer Science",
+  institution: "North Bengal University",
+  graduation: "Class of 2025",
   email: "debajitroy0005@gmail.com",
   github: "https://github.com/SilentP01",
   avatar: "/avatar-debajit.svg",

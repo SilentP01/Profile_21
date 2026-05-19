@@ -171,6 +171,7 @@ function HeroSection() {
             />
             <div className="mt-4 border-t border-white/10 pt-4">
               <p className="text-sm font-semibold text-frost">{profile.education}</p>
+              <p className="mt-1 text-sm text-white/70">{profile.institution} &middot; {profile.graduation}</p>
               <p className="mt-1 text-sm text-white/58">{profile.location}</p>
             </div>
           </motion.div>
